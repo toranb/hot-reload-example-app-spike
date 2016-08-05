@@ -18,6 +18,11 @@
   },
   "author": "",
   "license": "MIT",
+  "dependencies": {
+    "ember-devtools": "4.4.5",
+    "livereload-js": "git://github.com/toranb/livereload-js.git#jshotreload",
+    "ember-cli-js-reloader": "git://github.com/toranb/ember-cli-js-reloader.git#jshotreload"
+  },
   "devDependencies": {
     "broccoli-asset-rev": "^2.2.0",
     "ember-ajax": "0.7.1",
@@ -41,6 +46,7 @@
     "ember-resolver": "^2.0.3",
     "loader.js": "^4.0.0",
     "redux": "3.5.2",
+    "ember-hot-reload-spike": "git://github.com/toranb/ember-hot-reload-spike.git#master",
     "redux-thunk": "2.1.0"
   }
 }

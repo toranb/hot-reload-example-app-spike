@@ -1,7 +1,12 @@
-# Demoapp
+# demo ember application to show hot reloading in action w/ ember-redux
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+In addition to the usual npm install be sure you modify the filename for the
+live reload client side. 
+
+vim node_modules/livereload-js/dist/livereload.js
+
+search for the work dummy and replace it with whatever the app prefix is
+if you are using this app w/ the demoapp name use `demoapp` in its place
 
 ## Prerequisites
 
